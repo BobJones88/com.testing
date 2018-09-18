@@ -1,6 +1,7 @@
-package com.testing;
+package com.testing.Junit;
 
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestJunit {

@@ -1,4 +1,4 @@
-package com.testing;
+package com.testing.Junit;
 
 /*
 * This class prints the given message on console.
