@@ -6,7 +6,7 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner9 {
    public static void main(String[] args) {
-      Result result = JUnitCore.runClasses(JunitTestSuite2.class);
+      Result result = JUnitCore.runClasses(PrimeNumberCheckerTest.class);
 
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
