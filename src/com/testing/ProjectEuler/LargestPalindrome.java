@@ -47,10 +47,6 @@ public class LargestPalindrome {
 		sb2.append(str2);
 		sb2.reverse();
 		
-//		System.out.println("Str1 = " + sb);
-//		System.out.println("Str2 = " + sb2);
-//		System.out.println("Str length = " + str.length());
-		
 		return Objects.equals(sb.toString(), sb2.toString());
 	}
 }
